@@ -1,0 +1,57 @@
+/* Set the font family */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  background-color: #ccc;
+}
+
+input,
+#search-btn {
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  margin: 10px 5px 10px 5px;
+}
+
+/* Style the recipe divs */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-container h2 {
+  display: block;
+}
+
+.recipe-item {
+  width: 30%;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+/* Optional: Add additional styling for recipe content within the div */
+.recipe-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#recipes h2 {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+}
+
+#theme-change-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+#btn-container {
+  text-align: right;
+}
